@@ -1,0 +1,189 @@
+‏<!DOCTYPE html>
+‏<html lang="ar" dir="rtl">
+‏<head>
+‏  <meta charset="UTF-8" />
+‏  <meta name="viewport" content="width=device-width, initial-scale=1" />
+‏  <title>خدمات ناجز سيرف</title>
+‏  <style>
+‏    body {
+‏      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+‏      background: #f7f9fc;
+‏      margin: 0;
+‏      padding: 0;
+‏      color: #333;
+    }
+‏    header {
+‏      background-color: #004aad;
+‏      color: white;
+‏      padding: 20px;
+‏      text-align: center;
+    }
+‏    header h1 {
+‏      margin: 0;
+‏      font-size: 28px;
+    }
+‏    nav {
+‏      background-color: #0a6ed1;
+‏      display: flex;
+‏      justify-content: center;
+‏      gap: 30px;
+‏      padding: 10px 0;
+    }
+‏    nav a {
+‏      color: white;
+‏      text-decoration: none;
+‏      font-weight: bold;
+‏      font-size: 16px;
+    }
+‏    nav a:hover {
+‏      text-decoration: underline;
+    }
+‏    main {
+‏      max-width: 900px;
+‏      margin: 30px auto;
+‏      padding: 0 15px;
+    }
+‏    section.services {
+‏      display: grid;
+‏      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+‏      gap: 25px;
+‏      margin-bottom: 40px;
+    }
+‏    .service-card {
+‏      background: white;
+‏      padding: 20px;
+‏      border-radius: 8px;
+‏      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+‏      text-align: center;
+    }
+‏    .service-card h3 {
+‏      margin-top: 15px;
+‏      margin-bottom: 10px;
+‏      font-size: 20px;
+‏      color: #004aad;
+    }
+‏    .service-card p {
+‏      font-size: 15px;
+‏      color: #555;
+    }
+‏    form {
+‏      background: white;
+‏      padding: 25px;
+‏      border-radius: 8px;
+‏      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+‏      max-width: 500px;
+‏      margin: 0 auto 50px;
+‏      direction: rtl;
+    }
+‏    form h2 {
+‏      text-align: center;
+‏      margin-bottom: 20px;
+‏      color: #004aad;
+    }
+‏    form label {
+‏      display: block;
+‏      margin-bottom: 6px;
+‏      font-weight: bold;
+‏      font-size: 14px;
+    }
+‏    form input, form textarea {
+‏      width: 100%;
+‏      padding: 10px;
+‏      margin-bottom: 15px;
+‏      border: 1px solid #ccc;
+‏      border-radius: 5px;
+‏      font-size: 14px;
+‏      resize: vertical;
+    }
+‏    form button {
+‏      background-color: #004aad;
+‏      color: white;
+‏      border: none;
+‏      padding: 12px 20px;
+‏      border-radius: 6px;
+‏      font-size: 16px;
+‏      cursor: pointer;
+‏      width: 100%;
+    }
+‏    form button:hover {
+‏      background-color: #003680;
+    }
+‏    footer {
+‏      background-color: #0a6ed1;
+‏      color: white;
+‏      text-align: center;
+‏      padding: 15px 10px;
+‏      font-size: 14px;
+    }
+‏    .whatsapp-link {
+‏      display: inline-block;
+‏      margin-top: 10px;
+‏      background-color: #25d366;
+‏      color: white;
+‏      padding: 10px 18px;
+‏      border-radius: 25px;
+‏      text-decoration: none;
+‏      font-weight: bold;
+    }
+‏    .whatsapp-link:hover {
+‏      background-color: #1da851;
+    }
+‏  </style>
+‏</head>
+‏<body>
+‏  <header>
+‏    <h1>خدمات ناجز سيرف</h1>
+‏  </header>
+‏  <nav>
+‏    <a href="#services">خدماتنا</a>
+‏    <a href="#contact">التذاكر</a>
+‏    <a href="#contact">تواصل معنا</a>
+‏  </nav>
+‏  <main>
+‏    <section id="services" class="services">
+‏      <div class="service-card">
+‏        <h3>السكرتارية</h3>
+‏        <p>خدمات سكرتارية احترافية لتنظيم وإدارة مهام المكتب بكفاءة عالية.</p>
+‏      </div>
+‏      <div class="service-card">
+‏        <h3>إدارة المكاتب</h3>
+‏        <p>تنظيم عمليات المكتب لضمان سير العمل بشكل سلس وفعّال.</p>
+‏      </div>
+‏      <div class="service-card">
+‏        <h3>العلاقات العامة</h3>
+‏        <p>بناء علاقات متميزة مع العملاء والشركاء لتعزيز العلامة التجارية.</p>
+‏      </div>
+‏      <div class="service-card">
+‏        <h3>المساعدة الإدارية</h3>
+‏        <p>دعم مهام الإدارة اليومية لضمان جودة وسرعة الأداء.</p>
+‏      </div>
+‏      <div class="service-card">
+‏        <h3>خدمات ناجز</h3>
+‏        <p>تسهيل إنجاز المعاملات الحكومية عبر منصة ناجز بكل سهولة.</p>
+‏      </div>
+‏    </section>
+
+‏    <section id="contact">
+‏      <form>
+‏        <h2>أرسل تذكرتك / تواصلك</h2>
+‏        <label for="name">الاسم الكامل</label>
+‏        <input type="text" id="name" name="name" placeholder="اكتب اسمك" required />
+
+‏        <label for="email">البريد الإلكتروني</label>
+‏        <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+
+‏        <label for="message">رسالتك</label>
+‏        <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
+
+‏        <button type="submit">إرسال</button>
+‏      </form>
+‏      <div style="text-align: center;">
+‏        <a href="https://wa.me/966559884399" target="_blank" class="whatsapp-link">تواصل معنا عبر واتساب</a>
+‏      </div>
+‏    </section>
+‏  </main>
+‏  <footer>
+    جميع الحقوق محفوظة © 2025 خدمات ناجز سيرف | رقم التواصل: 966559884399+
+‏  </footer>
+‏</body>
+‏</html>
